@@ -1,0 +1,41 @@
+{
+	"rules": {
+		"no-unused-expression": true,
+		"no-duplicate-variable": true,
+		"no-unused-new": true,
+		"no-unused-variable": [
+			true
+		],
+		"curly": true,
+		"class-name": true,
+		"semicolon": [
+			"never"
+		],
+		"triple-equals": true,
+		"array-type": [
+			"array-simple"
+		],
+		"no-var-keyword": true,
+		"comment-format": [
+			"check-space"
+		],
+		"completed-docs": [
+			"methods"
+		],
+		"no-var-requires": true,
+		"quotemark": [
+			"double"
+		],
+		"no-empty": true,
+		"indent": [
+			true
+		]
+	},
+	"jsRules": {
+		"no-unused-new": true,
+		"no-unused-expression": true,
+		"semicolon": [
+			"always"
+		]
+	}
+}

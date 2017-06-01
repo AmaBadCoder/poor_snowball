@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}/out/init.js",
+            "outFiles": [],
+            "protocol": "inspector",
+            "sourceMaps": true,
+            "preLaunchTask": "tsc",
+            "env": { },
+            "runtimeArgs": [
+                "--nolazy"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Port",
+            "address": "localhost",
+            "port": 5858,
+            "outFiles": []
+        }
+    ]
+}
